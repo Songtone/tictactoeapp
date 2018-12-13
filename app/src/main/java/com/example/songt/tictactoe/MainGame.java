@@ -256,7 +256,7 @@ public class MainGame extends AppCompatActivity {
             winningText.setText("Player " + butt2.getText() + " Wins!");
             draw = false;
         } else if (butt3.getText() == "X" && butt6.getText() == "X" && butt9.getText()== "X") {
-            winningText.setText("Player " + butt4.getText() + " Wins!");
+            winningText.setText("Player " + butt3.getText() + " Wins!");
             draw = false;
         } else if (butt1.getText() == "X" && butt5.getText() == "X" &&  butt9.getText()== "X") {
             winningText.setText("Player " + butt1.getText() + " Wins!");
@@ -295,7 +295,7 @@ public class MainGame extends AppCompatActivity {
             winningText.setText("Player " + butt2.getText() + " Wins!");
             draw = false;
         } else if (butt3.getText() == "O" && butt6.getText() == "O" && butt9.getText()== "O") {
-            winningText.setText("Player " + butt4.getText() + " Wins!");
+            winningText.setText("Player " + butt3.getText() + " Wins!");
             draw = false;
         } else if (butt1.getText() == "O" && butt5.getText() == "O" &&  butt9.getText()== "O") {
             winningText.setText("Player " + butt1.getText() + " Wins!");
